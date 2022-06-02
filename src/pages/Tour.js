@@ -1,13 +1,9 @@
-import { Card, Container, Typography } from "@mui/material";
+import { Container, Typography } from "@mui/material";
 import { Box } from "@mui/system";
 import React from "react";
 import ControlledAccordions from "../components/Accordian";
-import BasicDatePicker from "../components/DatePicker";
 import QuiltedImageList from "../components/ImageLists";
-import { BottomNavigation, BottomNavigationAction, Paper } from "@mui/material";
-import RestoreIcon from "@mui/icons-material/Restore";
-import FavoriteIcon from "@mui/icons-material/Favorite";
-import ArchiveIcon from "@mui/icons-material/Archive";
+import { BottomNavigation, Paper } from "@mui/material";
 import BasicModal from "../components/Modal";
 
 export default function Tour() {
@@ -21,6 +17,7 @@ export default function Tour() {
         <img
           src="https://media.timeout.com/images/105124791/750/422/image.jpg"
           height={325}
+          alt="pic"
         />
         <QuiltedImageList />
       </Box>
